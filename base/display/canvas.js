@@ -1241,7 +1241,6 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
                 //          }
 
                 if(str == 'l\'energie')
-                  console.log(this);
                 if (str && !font.disableFontFace) {
                     var curFontSize = fontSize * scale * textHScale + 3;
                     switch (current.textRenderingMode) {
