@@ -1210,7 +1210,8 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
                         //MQZ. Feb.20.2013. Disable character based painting, make it a string
                         //            this.paintChar(character, scaledX, scaledY);
-                        str += glyph.unicode || character;
+                        //str += glyph.unicode || character;
+                        str += character;
                         if (accent) {
                             scaledAccentX = scaledX + accent.offset.x / fontSizeScale;
                             scaledAccentY = scaledY - accent.offset.y / fontSizeScale;
