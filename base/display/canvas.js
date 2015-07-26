@@ -1240,7 +1240,6 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
                 //              info(nodeUtil.inspect(glyphs));
                 //          }
 
-                if(str == 'l\'energie')
                 if (str && !font.disableFontFace) {
                     var curFontSize = fontSize * scale * textHScale + 3;
                     switch (current.textRenderingMode) {
